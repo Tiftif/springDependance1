@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 public class Outfit implements OutfitInterface{
 	
 
-  public String changeDress(String dress) {
-        return "The wizard's dress is blue" + dress;
+  public String color(String colorDress) {
+        return "La nouvelle robe est :" + colorDress;
     }
 
 }

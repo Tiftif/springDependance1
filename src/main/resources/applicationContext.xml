@@ -10,7 +10,7 @@
     <bean id="wizDress" class="fr.wildcodeschool.thewizardproject.models.Outfit">
     </bean>
     
-        <bean id="wizard" class="fr.wildcodeschool.thewizardproject.models.Dumbledore">
+        <bean id="wizard" class="fr.wildcodeschool.thewizardproject.models.Gandalf">
         <!-- Injection in the constructor : -->
         <constructor-arg ref="wizDress"/>
     </bean>

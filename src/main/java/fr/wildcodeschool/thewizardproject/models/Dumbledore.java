@@ -17,7 +17,7 @@ public class Dumbledore implements WizardInterface {
 	}
 
 	@Override
-	public String changeDress(String dress) {
-		return this.dress.changeDress(dress);
+	public String changeDress(String colorDress) {
+		return this.dress.color("blue");
 	}
 }

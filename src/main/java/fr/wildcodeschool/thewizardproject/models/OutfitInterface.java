@@ -1,5 +1,5 @@
 package fr.wildcodeschool.thewizardproject.models;
 
 public interface OutfitInterface {
-	public abstract String changeDress(String dress);
+	public abstract String color(String colorDress);
 }
